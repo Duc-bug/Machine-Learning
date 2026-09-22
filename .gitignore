@@ -1,0 +1,58 @@
+# ==========================================
+# Python Virtual Environments (Môi trường ảo)
+# ==========================================
+hocmay/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*/hocmay/
+*/venv/
+*/.venv/
+
+# ==========================================
+# Byte-compiled / optimized / cache files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Distribution / Packaging / Wheels
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.whl
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Environment Variables & Temporary Files
+# ==========================================
+.env
+.env.*
+powershell.bat
