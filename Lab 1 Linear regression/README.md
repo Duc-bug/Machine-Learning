@@ -1,6 +1,6 @@
 # Bài 01: Hồi quy Tuyến tính (Linear Regression)
 
-## 1. Tóm tắt kiến thức đã học
+## 1. Tóm tắt lý thuyết
 
 * **Bài toán hồi quy:** Dự đoán một giá trị liên tục (giá nhà, nhiệt độ, doanh thu...) thay vì dự đoán nhãn rời rạc như bài toán phân loại.
 * **Mô hình tuyến tính & Hàm mất mát MSE:**
@@ -47,3 +47,8 @@
 
 ---
 
+## 3. Nhận xét tổng kết
+
+* Hồi quy tuyến tính là mô hình nền tảng, đơn giản, tính toán nhanh và dễ giải thích ý nghĩa hệ số.
+* Cần kiểm tra kỹ các giả định về ngoại lai và đa cộng tuyến trước khi áp dụng; sử dụng Regularization (Ridge / Lasso) khi có nhiều đặc trưng có nguy cơ phụ thuộc tuyến tính.
+* Khi dữ liệu có tính chất phi tuyến, có thể mở rộng bằng Hồi quy đa thức nhưng cần kiểm soát chặt chẽ bậc đa thức để tránh hiện tượng Overfitting.
